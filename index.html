@@ -13,13 +13,20 @@
       box-sizing: border-box;
     }
 
+    .container{
+      border-radius: 1px;
+      border:3px solid #1890ff;
+
+    }
+
     .has-margin {
       margin: 1rem 0;
     }
 
+  
+
     .banner {
       width: 100%;
-
       display: flex;
       justify-content: center;
       align-items: center;
@@ -31,6 +38,7 @@
     .banner img {
       width: 100%;
       object-fit: cover;
+      opacity: 0.7;
     }
 
     .banner h1 {
@@ -42,7 +50,6 @@
 
     .인사 {
       font-size: 15px;
-      font-weight: bold;
     }
 
     .flex {
@@ -76,22 +83,20 @@
     <body>
       <div class="banner">
         <img src="./greeting.png" />
-        <h1>[두들린] 오퍼 및 입사 제안드립니다 (강우태님) </h1>
+        <h1>[두들린] 오퍼 및 입사 제안드립니다 </h1>
       </div>
       <p class="인사">
-        안녕하세요.<br />
-        <b>두들린 피플팀 </b>입니다. <br />
+        안녕하세요. <br />
+        두들린 피플팀 입니다. <br />
 
-        우태님과 함께하는 두들린을 상상하니 너무나도 기대가 됩니다! <br />
-        아래와 같은 내용으로 강우태님께 오퍼 드립니다! :)
+        <b>우태님</b>과 함께하는 두들린을 상상하니 너무나도 기대가 됩니다! <br />
+        아래와 같은 내용으로 <b>강우태</b>님께 오퍼 드립니다! :)
       </p>
-      <div class="flex has-margin">
-        <div class="offer">입사 처우 강우태님의 입사 처우 내역입니다.</div>
-      </div>
 
 
+<div class="container">
       <div class="flex">
-        <div class="cell-title1 보상">입사 시 처우</div>
+        <div class="cell-title1 보상"><b>입사 시 처우</b></div>
         <div>
           <b> - 포지션 : 제품팀 백엔드 엔지니어  </b> <br />
           <b> - 계약 연봉 : 연 1,000,000원 </b> (월 52시간의 포괄 연장수당 포함)
@@ -103,7 +108,7 @@
         </div>
       </div>
 
-      <div class="cell-title1 혜택">문화 및 복지</div>
+      <div class="cell-title1 혜택"><b>문화 및 복지</b></div>
       <ol>
         <li>직급 없이 <b> "님" 으로 소통 </b>하는 문화</li>
         <li>
@@ -133,9 +138,8 @@
           그 외 추가적으로 필요하신 장비가 있으시면 말씀주세요.
 
         </ul>
-      </div>
 
-      <div class="cell-title1 입사">입사 당일 일정</div>
+      <div class="cell-title1 입사"><b>입사 당일 일정</b></div>
       <ul>
         <li>10:10: 두들린 오피스 도착</li>
         <li>10:30 : 피플팀 온보딩</li>
@@ -143,7 +147,7 @@
         <li>이후 CEO 세션 및 팀 별 온보딩</li>
       </ul>
 
-      <div class="cell-title1 안내">그 외 안내 사항</div>
+      <div class="cell-title1 안내"><b>그 외 안내 사항</b></div>
       <ul>
         <li>
           입사 전 <strong>두들린 홈페이지 및 블로그</strong>에서 다양한 이야기를
@@ -152,8 +156,11 @@
         <li><a href="https://blog.greetinghr.com/">두들린 블로그</a></li>
         <li><a href="https://www.doodlin.co.kr/">두들린 홈페이지</a></li>
       </ul>
+        </div>
+    </div>
 
-      <div>
+      <div class = "마무리">
+        <br /> 
         😀 📢저희 팀은 빠르게 성장하고 있는 기업인 만큼,<br />
         계속해서 성과와 역량에 맞는 보상이 제공될 수 있도록 노력하고 있습니다. <br /><br />
         
